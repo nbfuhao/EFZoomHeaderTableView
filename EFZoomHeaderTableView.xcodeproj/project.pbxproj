@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23B1BE2E1BC221C300C6301F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1BE2D1BC221C300C6301F /* AppDelegate.swift */; };
+		23B1BE301BC221C300C6301F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1BE2F1BC221C300C6301F /* ViewController.swift */; };
+		23B1BE351BC221C300C6301F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B1BE341BC221C300C6301F /* Assets.xcassets */; };
+		23B1BE381BC221C300C6301F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B1BE361BC221C300C6301F /* LaunchScreen.storyboard */; };
+		23B1BE431BC221C300C6301F /* EFZoomHeaderTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1BE421BC221C300C6301F /* EFZoomHeaderTableViewTests.swift */; };
+		23B1BE4E1BC221C300C6301F /* EFZoomHeaderTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1BE4D1BC221C300C6301F /* EFZoomHeaderTableViewUITests.swift */; };
+		23B1BE5C1BC221D800C6301F /* EFZoomHeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B1BE5B1BC221D800C6301F /* EFZoomHeaderTableView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23B1BE3F1BC221C300C6301F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B1BE221BC221C200C6301F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B1BE291BC221C300C6301F;
+			remoteInfo = EFZoomHeaderTableView;
+		};
+		23B1BE4A1BC221C300C6301F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23B1BE221BC221C200C6301F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23B1BE291BC221C300C6301F;
+			remoteInfo = EFZoomHeaderTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23B1BE2A1BC221C300C6301F /* EFZoomHeaderTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFZoomHeaderTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B1BE2D1BC221C300C6301F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23B1BE2F1BC221C300C6301F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23B1BE341BC221C300C6301F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23B1BE371BC221C300C6301F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23B1BE391BC221C300C6301F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B1BE3E1BC221C300C6301F /* EFZoomHeaderTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFZoomHeaderTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B1BE421BC221C300C6301F /* EFZoomHeaderTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFZoomHeaderTableViewTests.swift; sourceTree = "<group>"; };
+		23B1BE441BC221C300C6301F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B1BE491BC221C300C6301F /* EFZoomHeaderTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFZoomHeaderTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B1BE4D1BC221C300C6301F /* EFZoomHeaderTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFZoomHeaderTableViewUITests.swift; sourceTree = "<group>"; };
+		23B1BE4F1BC221C300C6301F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B1BE5B1BC221D800C6301F /* EFZoomHeaderTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFZoomHeaderTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23B1BE271BC221C300C6301F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE3B1BC221C300C6301F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE461BC221C300C6301F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23B1BE211BC221C200C6301F = {
+			isa = PBXGroup;
+			children = (
+				23B1BE2C1BC221C300C6301F /* EFZoomHeaderTableView */,
+				23B1BE411BC221C300C6301F /* EFZoomHeaderTableViewTests */,
+				23B1BE4C1BC221C300C6301F /* EFZoomHeaderTableViewUITests */,
+				23B1BE2B1BC221C300C6301F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23B1BE2B1BC221C300C6301F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23B1BE2A1BC221C300C6301F /* EFZoomHeaderTableView.app */,
+				23B1BE3E1BC221C300C6301F /* EFZoomHeaderTableViewTests.xctest */,
+				23B1BE491BC221C300C6301F /* EFZoomHeaderTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23B1BE2C1BC221C300C6301F /* EFZoomHeaderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				23B1BE2D1BC221C300C6301F /* AppDelegate.swift */,
+				23B1BE2F1BC221C300C6301F /* ViewController.swift */,
+				23B1BE5B1BC221D800C6301F /* EFZoomHeaderTableView.swift */,
+				23B1BE341BC221C300C6301F /* Assets.xcassets */,
+				23B1BE361BC221C300C6301F /* LaunchScreen.storyboard */,
+				23B1BE391BC221C300C6301F /* Info.plist */,
+			);
+			path = EFZoomHeaderTableView;
+			sourceTree = "<group>";
+		};
+		23B1BE411BC221C300C6301F /* EFZoomHeaderTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				23B1BE421BC221C300C6301F /* EFZoomHeaderTableViewTests.swift */,
+				23B1BE441BC221C300C6301F /* Info.plist */,
+			);
+			path = EFZoomHeaderTableViewTests;
+			sourceTree = "<group>";
+		};
+		23B1BE4C1BC221C300C6301F /* EFZoomHeaderTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23B1BE4D1BC221C300C6301F /* EFZoomHeaderTableViewUITests.swift */,
+				23B1BE4F1BC221C300C6301F /* Info.plist */,
+			);
+			path = EFZoomHeaderTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23B1BE291BC221C300C6301F /* EFZoomHeaderTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B1BE521BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableView" */;
+			buildPhases = (
+				23B1BE261BC221C300C6301F /* Sources */,
+				23B1BE271BC221C300C6301F /* Frameworks */,
+				23B1BE281BC221C300C6301F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFZoomHeaderTableView;
+			productName = EFZoomHeaderTableView;
+			productReference = 23B1BE2A1BC221C300C6301F /* EFZoomHeaderTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23B1BE3D1BC221C300C6301F /* EFZoomHeaderTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B1BE551BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableViewTests" */;
+			buildPhases = (
+				23B1BE3A1BC221C300C6301F /* Sources */,
+				23B1BE3B1BC221C300C6301F /* Frameworks */,
+				23B1BE3C1BC221C300C6301F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B1BE401BC221C300C6301F /* PBXTargetDependency */,
+			);
+			name = EFZoomHeaderTableViewTests;
+			productName = EFZoomHeaderTableViewTests;
+			productReference = 23B1BE3E1BC221C300C6301F /* EFZoomHeaderTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23B1BE481BC221C300C6301F /* EFZoomHeaderTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23B1BE581BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableViewUITests" */;
+			buildPhases = (
+				23B1BE451BC221C300C6301F /* Sources */,
+				23B1BE461BC221C300C6301F /* Frameworks */,
+				23B1BE471BC221C300C6301F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23B1BE4B1BC221C300C6301F /* PBXTargetDependency */,
+			);
+			name = EFZoomHeaderTableViewUITests;
+			productName = EFZoomHeaderTableViewUITests;
+			productReference = 23B1BE491BC221C300C6301F /* EFZoomHeaderTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23B1BE221BC221C200C6301F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Eddie Fu";
+				TargetAttributes = {
+					23B1BE291BC221C300C6301F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					23B1BE3D1BC221C300C6301F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 23B1BE291BC221C300C6301F;
+					};
+					23B1BE481BC221C300C6301F = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 23B1BE291BC221C300C6301F;
+					};
+				};
+			};
+			buildConfigurationList = 23B1BE251BC221C200C6301F /* Build configuration list for PBXProject "EFZoomHeaderTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23B1BE211BC221C200C6301F;
+			productRefGroup = 23B1BE2B1BC221C300C6301F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23B1BE291BC221C300C6301F /* EFZoomHeaderTableView */,
+				23B1BE3D1BC221C300C6301F /* EFZoomHeaderTableViewTests */,
+				23B1BE481BC221C300C6301F /* EFZoomHeaderTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23B1BE281BC221C300C6301F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B1BE381BC221C300C6301F /* LaunchScreen.storyboard in Resources */,
+				23B1BE351BC221C300C6301F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE3C1BC221C300C6301F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE471BC221C300C6301F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23B1BE261BC221C300C6301F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B1BE301BC221C300C6301F /* ViewController.swift in Sources */,
+				23B1BE2E1BC221C300C6301F /* AppDelegate.swift in Sources */,
+				23B1BE5C1BC221D800C6301F /* EFZoomHeaderTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE3A1BC221C300C6301F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B1BE431BC221C300C6301F /* EFZoomHeaderTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23B1BE451BC221C300C6301F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B1BE4E1BC221C300C6301F /* EFZoomHeaderTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23B1BE401BC221C300C6301F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B1BE291BC221C300C6301F /* EFZoomHeaderTableView */;
+			targetProxy = 23B1BE3F1BC221C300C6301F /* PBXContainerItemProxy */;
+		};
+		23B1BE4B1BC221C300C6301F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23B1BE291BC221C300C6301F /* EFZoomHeaderTableView */;
+			targetProxy = 23B1BE4A1BC221C300C6301F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23B1BE361BC221C300C6301F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23B1BE371BC221C300C6301F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23B1BE501BC221C300C6301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23B1BE511BC221C300C6301F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23B1BE531BC221C300C6301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFZoomHeaderTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23B1BE541BC221C300C6301F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EFZoomHeaderTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23B1BE561BC221C300C6301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EFZoomHeaderTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFZoomHeaderTableView.app/EFZoomHeaderTableView";
+			};
+			name = Debug;
+		};
+		23B1BE571BC221C300C6301F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EFZoomHeaderTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EFZoomHeaderTableView.app/EFZoomHeaderTableView";
+			};
+			name = Release;
+		};
+		23B1BE591BC221C300C6301F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EFZoomHeaderTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EFZoomHeaderTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		23B1BE5A1BC221C300C6301F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EFZoomHeaderTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eddieFu.EFZoomHeaderTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EFZoomHeaderTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23B1BE251BC221C200C6301F /* Build configuration list for PBXProject "EFZoomHeaderTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B1BE501BC221C300C6301F /* Debug */,
+				23B1BE511BC221C300C6301F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23B1BE521BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B1BE531BC221C300C6301F /* Debug */,
+				23B1BE541BC221C300C6301F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23B1BE551BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B1BE561BC221C300C6301F /* Debug */,
+				23B1BE571BC221C300C6301F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23B1BE581BC221C300C6301F /* Build configuration list for PBXNativeTarget "EFZoomHeaderTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23B1BE591BC221C300C6301F /* Debug */,
+				23B1BE5A1BC221C300C6301F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23B1BE221BC221C200C6301F /* Project object */;
+}
